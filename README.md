@@ -2,7 +2,7 @@
 
 SPARK is an influencer-focused NFT Launchpad and Marketplace built on Zircuit, empowering early supporters to invest in rising creators while leveraging Sequencer-Level Security (SLS) to block bots, spam, and manipulation.
 
-⸻
+___
 
 
 ## 🚀 Getting Started
@@ -42,29 +42,29 @@ Emerging influencers need more than just social visibility — they need financi
 
 SPARK fixes this by letting users discover and invest early in creators through secure NFT launches, reputation tracking, and a social layer — all powered by Zircuit's SLS.
 
-⸻
+___
 
 ## Solution: Early Access Meets Zircuit Security
 
 SPARK enables early influencer investment through NFT launches and a social reputation system — with Zircuit's SLS providing invisible protection.
 
-✅ Supporters invest via limited NFTs tied to influencer growth
-✅ NFT value reflects popularity, creating organic FOMO
-✅ Real-time reputation scores for social transparency
-✅ Zircuit SLS quarantines bots, exploits, and malicious activity before block inclusion
+- Supporters invest via limited NFTs tied to influencer growth
+- NFT value reflects popularity, creating organic FOMO
+- Real-time reputation scores for social transparency
+- Zircuit SLS quarantines bots, exploits, and malicious activity before block inclusion
 
-⸻
+___
 
 ## Core Features
 
-✅ Early Access to Future Influencers
-✅ Limited NFT Launches with Social Layer
-✅ Reputation System — Fame Score & Community Score
-✅ SLS-Powered Bot, Spam, and Money Laundering Protection
-✅ Marketplace for Trading
-✅ Censorship Awareness on Transactions
+- Early Access to Future Influencers
+- Limited NFT Launches with Social Layer
+- Reputation System — Fame Score & Community Score
+- SLS-Powered Bot, Spam, and Money Laundering Protection
+- Marketplace for Trading
+- Censorship Awareness on Transactions
 
-⸻
+___
 
 
 ## Architecture Diagram
@@ -73,7 +73,7 @@ SPARK enables early influencer investment through NFT launches and a social repu
 
 Diagram illustrates technical architecture of our project. 
 
-⸻
+___
 
 ## Tech Stack we used and are planning to use
 
@@ -84,12 +84,12 @@ Diagram illustrates technical architecture of our project.
 - **Storage:** IPFS
 - **RPC:** Alchemy, Zircuit RPC
 
-⸻
+___
 
 ## Market & Future Development
 
-✅ No scalable, security-focused influencer NFT platform exists today
-✅ SPARK fills this gap with early access, real reputation, and exploit protection
+- No scalable, security-focused influencer NFT platform exists today
+- SPARK fills this gap with early access, real reputation, and exploit protection
 
 Next:
 ```text
