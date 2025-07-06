@@ -17,7 +17,7 @@ export default function App() {
   const renderContent = () => {
     switch (activeTab) {
       case 'home':
-        return <Home userRole={userRole} />;
+        return <Home userRole={userRole} setUserRole={setUserRole} />;
       case 'profile':
         return <Profile userRole={userRole} />;
       case 'support':

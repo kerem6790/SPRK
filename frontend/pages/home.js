@@ -1,50 +1,58 @@
-export default function Home({ userRole }) {
+import { useContext } from 'react';
+
+export default function Home({ userRole, setUserRole }) {
   return (
-    <div className="content-section">
-      <h2 className="section-title">
-        Welcome to sprk
-        <span className="role-indicator">
-          {userRole === 'supporter' ? ' (Supporter Mode)' : ' (Influencer Mode)'}
-        </span>
-      </h2>
-      <p className="section-description">
-        {userRole === 'supporter' 
-          ? 'Discover and collect unique digital collectibles from your favorite influencers. Support creators and build your NFT collection.'
-          : 'Create, launch, and monetize your digital collectibles. Connect with your community and build your brand through NFTs.'
-        }
-      </p>
-      <div className="features-grid">
-        {userRole === 'supporter' ? (
-          <>
-            <div className="feature-card">
-              <h3>Discover</h3>
-              <p>Explore unique NFT collections</p>
-            </div>
-            <div className="feature-card">
-              <h3>Collect</h3>
-              <p>Build your digital collection</p>
-            </div>
-            <div className="feature-card">
-              <h3>Support</h3>
-              <p>Back your favorite creators</p>
-            </div>
-          </>
-        ) : (
-          <>
-            <div className="feature-card">
-              <h3>Create</h3>
-              <p>Mint your own unique NFTs</p>
-            </div>
-            <div className="feature-card">
-              <h3>Launch</h3>
-              <p>Release collections to your community</p>
-            </div>
-            <div className="feature-card">
-              <h3>Monetize</h3>
-              <p>Earn from your digital assets</p>
-            </div>
-          </>
-        )}
+    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '60vh' }}>
+      <div style={{
+        background: 'linear-gradient(135deg, #ff512f 0%, #f09819 100%)',
+        borderRadius: '32px',
+        padding: '60px 40px',
+        minWidth: '500px',
+        minHeight: '300px',
+        boxShadow: '0 8px 32px rgba(255, 81, 47, 0.10)',
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+      }}>
+        <h1 style={{ fontSize: '3rem', fontWeight: 'bold', color: '#222', marginBottom: '40px', textAlign: 'center' }}>
+          fuel the sprk.
+        </h1>
+        <div style={{ display: 'flex', gap: '12px', marginTop: '24px' }}>
+          <button
+            style={{
+              background: userRole === 'supporter' ? '#ff512f' : 'white',
+              color: userRole === 'supporter' ? 'white' : '#ff512f',
+              border: '2px solid #ff512f',
+              borderRadius: '20px',
+              padding: '8px 24px',
+              fontWeight: 'bold',
+              fontSize: '1.1rem',
+              cursor: 'pointer',
+              marginRight: '4px',
+              transition: 'all 0.2s',
+            }}
+            onClick={() => setUserRole('supporter')}
+          >
+            I'm a Supporter
+          </button>
+          <button
+            style={{
+              background: userRole === 'influencer' ? '#ff512f' : 'white',
+              color: userRole === 'influencer' ? 'white' : '#ff512f',
+              border: '2px solid #ff512f',
+              borderRadius: '20px',
+              padding: '8px 24px',
+              fontWeight: 'bold',
+              fontSize: '1.1rem',
+              cursor: 'pointer',
+              transition: 'all 0.2s',
+            }}
+            onClick={() => setUserRole('influencer')}
+          >
+            I'm an Influencer
+          </button>
+        </div>
       </div>
     </div>
   );
