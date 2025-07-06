@@ -14,13 +14,20 @@ ___
 
 ## Solution: Early Access Meets Zircuit Security
 
-SPRK enables early influencer investment through NFT launches and a social reputation system — with Zircuit's SLS providing invisible protection.
+The core problem today about SocialFi and investing into influencers is that, these kind of project turn int ponzy schemes real quick and are not sustainable. We don't want that.
 
-- Supporters invest via limited NFTs tied to influencer growth
-- NFT value reflects popularity, creating organic FOMO
-- Real-time reputation scores for social transparency
-- Zircuit SLS quarantines bots, exploits, and malicious activity before block inclusion
+Our solution offers an NFT based support for early stage creators. Users can buy the 
+NFT collections of influencers who they believe have potential. Early supporter NFT's will 
+be cheaper and more rare. 
 
+Thanks to NFT's and not just tokenizing influencers, the system will be sustainable.
+
+Holding NFT's will have perks as well. In future, we are planning to add special content
+feature, NFT holders are going to be able to watch special contents and interact with them. 
+
+Infuencers are obviosly going to benefit from this too. By getting the early support they need, it is going to be much easier for them to be seen and get popular. 
+
+We believe this solution is a win-win system and has a lot of potential.
 ___
 
 ## Core Features
