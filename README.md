@@ -35,7 +35,7 @@ ___
 ___
 
 
-## Architecture Diagrams
+### Architecture Diagrams
 
 ![SPRK Architecture](frontend/public/diagram.png)
 
@@ -43,39 +43,39 @@ The diagram above represents the full technical flow of SPARK, showing how each 
 
 ___
 
-🎛️ SPRK Backend
-	•	Handles influencer onboarding and social media verification
-	•	Prevents fake profiles by validating off-chain credentials
-	•	After verification, enables NFT smart contract deployment
+### SPRK Backend
+-	Handles influencer onboarding and social media verification
+-	Prevents fake profiles by validating off-chain credentials
+-	After verification, enables NFT smart contract deployment
 
 Tech: Node.js, Express (future), off-chain API calls
 
 ___
 
-🔗 Smart Contract Layer (On Zircuit)
-	•	Influencers deploy ERC-721 contracts to Zircuit Testnet
-	•	Supporter mints trigger on-chain contract functions
-	•	Marketplace operates fully on-chain for secondary trades
+### Smart Contract Layer (On Zircuit)
+-	Influencers deploy ERC-721 contracts to Zircuit Testnet
+-	Supporter mints trigger on-chain contract functions
+-	Marketplace operates fully on-chain for secondary trades
 
 Tech: Solidity, Hardhat, OpenZeppelin standards
 
 ___
 
-🛡️ Zircuit Infrastructure
-	•	All transactions (mint & trade) flow through Zircuit’s Sequencer
-	•	SLS (Sequencer-Level Security) applies:
-→ Transaction simulation
-→ AI & rule-based malice detection
-→ Quarantine of suspicious transactions before block inclusion
+### Zircuit Infrastructure
+-	All transactions (mint & trade) flow through Zircuit’s Sequencer
+-	SLS (Sequencer-Level Security) applies:
+- Transaction simulation
+- AI & rule-based malice detection
+- Quarantine of suspicious transactions before block inclusion
 
 Provides protection against bots, money laundering, and exploits transparently
 
 ___
 
-🖥️ Frontend (User Interface)
-	•	Built with Next.js and React
-	•	Integrates MetaMask & ethers.js for direct contract interaction
-	•	Shows reputation metrics and transaction feedback in real-time
+### Frontend (User Interface)
+-	Built with Next.js and React
+-	Integrates MetaMask & ethers.js for direct contract interaction
+-	Shows reputation metrics and transaction feedback in real-time
 
 
 ## 👥 User & Influencer Flow
