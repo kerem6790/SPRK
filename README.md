@@ -146,6 +146,13 @@ ___
 
 ## 🚀 Getting Started
 
+⚠️ Disclaimer
+
+SPRK is an experimental proof-of-concept built for ETHGlobal Cannes and the Zircuit Bounty.  
+The repository contains partial smart contracts and frontend code for demonstration purposes.  
+Some components are incomplete, untested, or may contain bugs.  
+The core focus of this submission is the architectural design, Zircuit integration, and product vision — not a full production-ready implementation.
+
 1. Clone the Repository
 ```bash
 git clone https://github.com/kerem6790/SPRK.git
