@@ -41,7 +41,7 @@ ___
 
 The diagram above represents the full technical flow of SPARK, showing how each component interacts across backend, smart contracts, and Zircuit infrastructure:
 
-⸻
+___
 
 🎛️ SPRK Backend
 	•	Handles influencer onboarding and social media verification
@@ -50,7 +50,7 @@ The diagram above represents the full technical flow of SPARK, showing how each 
 
 Tech: Node.js, Express (future), off-chain API calls
 
-⸻
+___
 
 🔗 Smart Contract Layer (On Zircuit)
 	•	Influencers deploy ERC-721 contracts to Zircuit Testnet
@@ -59,7 +59,7 @@ Tech: Node.js, Express (future), off-chain API calls
 
 Tech: Solidity, Hardhat, OpenZeppelin standards
 
-⸻
+___
 
 🛡️ Zircuit Infrastructure
 	•	All transactions (mint & trade) flow through Zircuit’s Sequencer
@@ -70,7 +70,7 @@ Tech: Solidity, Hardhat, OpenZeppelin standards
 
 Provides protection against bots, money laundering, and exploits transparently
 
-⸻
+___
 
 🖥️ Frontend (User Interface)
 	•	Built with Next.js and React
@@ -79,6 +79,9 @@ Provides protection against bots, money laundering, and exploits transparently
 
 
 ## 👥 User & Influencer Flow
+
+**User Flow Diagram:**  
+![User Flow](frontend/public/user_flow.png)
 
 SPRK creates two distinct, but connected experiences for the ecosystem:
 
@@ -93,8 +96,7 @@ Everyday users can:
 
 This flow enables fans to gain early access, while building social credibility and benefiting from influencer growth.
 
-**User Flow Diagram:**  
-![User Flow](frontend/public/user_flow.png)
+
 
 ---
 
