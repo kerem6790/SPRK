@@ -27,7 +27,7 @@ feature, NFT holders are going to be able to watch special contents and interact
 
 Infuencers are obviosly going to benefit from this too. By getting the early support they need, it is going to be much easier for them to be seen and get popular. 
 
-We believe this solution is a win-win system and has a lot of potential.
+We believe this solution is a win-win system and has a lot of potential. By combining all above with Zircuit's ai powered sequencer level security, our system is going to be safe of bots and hacks. 
 ___
 
 ## Core Features
@@ -153,7 +153,7 @@ ___
 
 ## 🚀 Getting Started
 
-⚠️ Disclaimer
+Disclaimer
 
 SPRK is an experimental proof-of-concept built for ETHGlobal Cannes and the Zircuit Bounty.  
 The repository contains partial smart contracts and frontend code for demonstration purposes.  
