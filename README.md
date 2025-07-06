@@ -81,7 +81,9 @@ ___
 ## 👥 User & Influencer Flow
 
 **User Flow Diagram:**  
-![User Flow](frontend/public/user_flow.png)
+![User Flow](frontend/public/user_flow1.png)
+![User Flow](frontend/public/user_flow2.png)
+
 
 SPRK creates two distinct, but connected experiences for the ecosystem:
 
@@ -101,6 +103,10 @@ This flow enables fans to gain early access, while building social credibility a
 ---
 
 ### 🎤 For Influencers (Creators)
+
+**Influencer Flow Diagram:**  
+![Influencer Flow](frontend/public/influencer_flow.png) 
+
 Rising creators can:
 
 1. Onboard to the platform by connecting social media accounts and their wallets
@@ -110,10 +116,6 @@ Rising creators can:
 5. Leverage SPRK's security-first infrastructure to avoid exploitation, fake hype, or bot attacks  
 
 This gives influencers early financial and community support, with manipulation-resistant growth.
-
-**Influencer Flow Diagram:**  
-![Influencer Flow](frontend/public/influencer_flow.png) 
-
 
 ___
 
