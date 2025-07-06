@@ -82,8 +82,6 @@ ___
 
 **User Flow Diagram:**  
 ![User Flow](frontend/public/user_flow1.png)
-![User Flow](frontend/public/user_flow2.png)
-
 
 SPRK creates two distinct, but connected experiences for the ecosystem:
 
